@@ -6,7 +6,7 @@
     <description>Recent content in Home on Echo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Jun 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://Echoxing.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Oct 2022 10:24:11 +0800</lastBuildDate><atom:link href="https://Echoxing.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>江湖一隅</title>
       <link>https://Echoxing.github.io/about/</link>
@@ -16,6 +16,16 @@
       <description>This Hugo theme was ported from Ivy, a minimalist website generator built in Python. I don&amp;rsquo;t have time to document this theme. You have to read the source code to understand what it can do. All I can say for now is that I love it. It is clean, minimal, and responsive.
 I hope you will enjoy this theme. The source code is on Github. Happy hacking!
 I deploy my daily study notes on WeChat Offical Account &amp;ldquo;兀坐听雪&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>我为什么选择独立博客</title>
+      <link>https://Echoxing.github.io/post/2022/10/11/%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Tue, 11 Oct 2022 10:24:11 +0800</pubDate>
+      
+      <guid>https://Echoxing.github.io/post/2022/10/11/%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2/</guid>
+      <description>最近折腾了好久，终于在昨天晚上在本地部署好了hugo，主要是前几天在之前的博客上更新的时候hexo d一直出错，尝试各种解决方法后成功彻底崩了，干脆打算重新选择一个更加极简的主题，本来是选择hexo的aircloud主题，但是本底部署一直出错，网上查了很多推荐最后选择了hugo-ivy，很合我的口味，不过ssh配置一直出错，没办法上传到github，所以只能先在本地自己看，git连接github的慢慢解决。
+回到题目，我为什么选择独立博客？</description>
     </item>
     
     <item>
