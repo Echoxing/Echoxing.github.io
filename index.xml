@@ -6,7 +6,7 @@
     <description>Recent content in Home on Echo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Oct 2022 10:24:11 +0800</lastBuildDate><atom:link href="https://Echoxing.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Oct 2022 19:49:01 +0800</lastBuildDate><atom:link href="https://Echoxing.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>江湖一隅</title>
       <link>https://Echoxing.github.io/about/</link>
@@ -19,53 +19,29 @@ I deploy my daily study notes on WeChat Offical Account &amp;ldquo;兀坐听雪&
     </item>
     
     <item>
-      <title>我为什么选择独立博客</title>
-      <link>https://Echoxing.github.io/post/2022/10/11/%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2/</link>
+      <title>我的极简主义生活</title>
+      <link>https://Echoxing.github.io/post/2022/10/21/%E6%88%91%E7%9A%84%E6%9E%81%E7%AE%80%E4%B8%BB%E4%B9%89%E7%94%9F%E6%B4%BB/</link>
+      <pubDate>Fri, 21 Oct 2022 19:49:01 +0800</pubDate>
+      
+      <guid>https://Echoxing.github.io/post/2022/10/21/%E6%88%91%E7%9A%84%E6%9E%81%E7%AE%80%E4%B8%BB%E4%B9%89%E7%94%9F%E6%B4%BB/</guid>
+      <description>大二上的时候，因为和父亲的矛盾导致我需要自力更生，为了赚钱我尝试了很多兼职，将宿舍里一些闲置的东西也都卖掉，机缘巧合之下接触到了断舍离、极简的概念，从此便一发不可收拾的喜欢上了这种生活，这篇文章便来记录自己的极简生活。
+数字极简 社交软件 微信【取消关注公众号；小程序作为工具；仅有事聊天 QQ 音乐 Apple Music，classical【iPhone，iPad；播放列表：love；古典乐 网易云【Web；列表：love Spotify【Web；列表：love 阅读 我喜欢微信读书的自动阅读，所以我选择暂时保留它。读书应该学会筛选好书，所以我。“书影札记”Excel记录我读过的书、电影、动漫
+Apple book 微信读书 物品极简 衣物 衣物分别放于家中我自己的小房间以及宿舍，这些东西真正是只属于我的物品。
+衣服鞋子
+化妆品
+书 家中及宿舍。
+电子产品 iPhone iPad 电脑ThinkPad，鼠标 AirPods，Sony耳机 相机【佳能m62；松下lx5】 杂物 一个黑色书包，斜跨包，帆布包 黑水杯，玻璃杯，咖啡杯 财务管理 数学教育
+B站【平方的X讲课 公众号【兀坐听雪 小红书【花和尚 极简原则 关闭几乎所有应用的通知 删除可以看到读者评论的应用 尽量不加人微信，不加群聊，关闭朋友圈 手机用来听播客和有声书，尽量不做其他事情 网络上不与人争论，不回复不同观点，不提出不同意见 极简主义的原则应践行到方方面面：整理、有序、极简 工具软件不发东西，默认头像昵称（日照金山头像） Web优先于APP；iOS自带优先 尽量避免使用表情包 结语 其实，极简的最后只是为了让我们更加专注于当下要做的事情，我一直信奉“工匠精神”，人一辈子做好 一件事情就可以，所以极简背后便是这个道理，回归生活本心。</description>
+    </item>
+    
+    <item>
+      <title>A Tale of Two Cities—原版书阅读</title>
+      <link>https://Echoxing.github.io/post/2022/10/11/a-tale-of-two-cities%E5%8E%9F%E7%89%88%E4%B9%A6%E9%98%85%E8%AF%BB/</link>
       <pubDate>Tue, 11 Oct 2022 10:24:11 +0800</pubDate>
       
-      <guid>https://Echoxing.github.io/post/2022/10/11/%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2/</guid>
-      <description>最近折腾了好久，终于在昨天晚上在本地部署好了hugo，主要是前几天在之前的博客上更新的时候hexo d一直出错，尝试各种解决方法后成功彻底崩了，干脆打算重新选择一个更加极简的主题，本来是选择hexo的aircloud主题，但是本底部署一直出错，网上查了很多推荐最后选择了hugo-ivy，很合我的口味，不过ssh配置一直出错，没办法上传到github，所以只能先在本地自己看，git连接github的慢慢解决。
-回到题目，我为什么选择独立博客？</description>
-    </item>
-    
-    <item>
-      <title>Another Note on A blogdown Tutorial</title>
-      <link>https://Echoxing.github.io/note/2017/06/14/another-note/</link>
-      <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://Echoxing.github.io/note/2017/06/14/another-note/</guid>
-      <description>I just discovered an awesome tutorial on blogdown written by Alison. I have to admit this is the best blogdown tutorial I have seen so far.</description>
-    </item>
-    
-    <item>
-      <title>A Quick Note on Two Beautiful Websites</title>
-      <link>https://Echoxing.github.io/note/2017/06/13/a-quick-note/</link>
-      <pubDate>Tue, 13 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://Echoxing.github.io/note/2017/06/13/a-quick-note/</guid>
-      <description>To me, the two most impressive websites based on blogdown are:
-Rob J Hyndman&amp;rsquo;s personal website. Live Free or Dichotomize by Lucy and Nick et al. I&amp;rsquo;m sure there will be more.</description>
-    </item>
-    
-    <item>
-      <title>A Plain Markdown Post</title>
-      <link>https://Echoxing.github.io/post/2016/02/14/a-plain-markdown-post/</link>
-      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://Echoxing.github.io/post/2016/02/14/a-plain-markdown-post/</guid>
-      <description>This sample post is mainly for blogdown users. If you do not use blogdown, you can skip the first section.
-1. Markdown or R Markdown This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
-You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.</description>
-    </item>
-    
-    <item>
-      <title>Lorem Ipsum</title>
-      <link>https://Echoxing.github.io/post/2015/07/23/lorem-ipsum/</link>
-      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://Echoxing.github.io/post/2015/07/23/lorem-ipsum/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Quisque mattis volutpat lorem vitae feugiat.</description>
+      <guid>https://Echoxing.github.io/post/2022/10/11/a-tale-of-two-cities%E5%8E%9F%E7%89%88%E4%B9%A6%E9%98%85%E8%AF%BB/</guid>
+      <description>https://dev.gutenberg.org/cache/epub/98/pg98-images.html#link2H_4_0002
+Book the First—Recalled to Life CHAPTER I. The Period It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way—in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.</description>
     </item>
     
   </channel>
