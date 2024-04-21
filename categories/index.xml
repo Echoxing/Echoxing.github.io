@@ -5,6 +5,34 @@
     <link>https://Echoxing.github.io/categories/</link>
     <description>Recent content in Categories on Echo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://Echoxing.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Nov 2022 18:27:09 +0800</lastBuildDate><atom:link href="https://Echoxing.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>音乐</title>
+      <link>https://Echoxing.github.io/categories/%E9%9F%B3%E4%B9%90/</link>
+      <pubDate>Sat, 26 Nov 2022 18:27:09 +0800</pubDate>
+      
+      <guid>https://Echoxing.github.io/categories/%E9%9F%B3%E4%B9%90/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Example</title>
+      <link>https://Echoxing.github.io/categories/example/</link>
+      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://Echoxing.github.io/categories/example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://Echoxing.github.io/categories/hugo/</link>
+      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://Echoxing.github.io/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

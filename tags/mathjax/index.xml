@@ -9,13 +9,14 @@
     <lastBuildDate>Sun, 14 Feb 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://Echoxing.github.io/tags/mathjax/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Plain Markdown Post</title>
-      <link>https://Echoxing.github.io/post/2016/02/14/a-plain-markdown-post/</link>
+      <link>https://Echoxing.github.io/2016-02-14-#%23%233%233/</link>
       <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://Echoxing.github.io/post/2016/02/14/a-plain-markdown-post/</guid>
-      <description>This sample post is mainly for blogdown users. If you do not use blogdown, you can skip the first section.
-1. Markdown or R Markdown This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
-You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.</description>
+      <guid>https://Echoxing.github.io/2016-02-14-#%23%233%233/</guid>
+      <description>20210403-清明节
+自己一个人出去旅行，拿着松下lx5，拍了一堆不知所云的照片
+##开始正视自己丑陋的面庞
+每次翻看照片，都会被我的一些自拍照片吓一跳，想删去</description>
     </item>
     
   </channel>
