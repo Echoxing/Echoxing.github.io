@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>hugo搭建博客 - Echo</title>
+    <meta property="og:title" content="hugo搭建博客 - Echo">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="hugo 命令可以将你写的 Markdown 文件生成静态 HTML 网页，生成的 HTML 文件默认存放在 public 文件夹中。
+hugo 因为hugo 生成的静态 HTML 网页文件默认存放在 public 文件中，所以推送网页内容只需要把 public 中的 HTML 网页文件发布到 GitHub Pages 仓库中。
+[&amp;hellip;] 将 public 文件夹初始化为 Git 仓 &amp;hellip;">
+      <meta property="og:description" content="hugo 命令可以将你写的 Markdown 文件生成静态 HTML 网页，生成的 HTML 文件默认存放在 public 文件夹中。
+hugo 因为hugo 生成的静态 HTML 网页文件默认存放在 public 文件中，所以推送网页内容只需要把 public 中的 HTML 网页文件发布到 GitHub Pages 仓库中。
+[&amp;hellip;] 将 public 文件夹初始化为 Git 仓 &amp;hellip;">
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+
+<link href='//cdn.bootcss.com/highlight.js/11.7.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="all" />
+
+
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/custom.css" />
+<link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="all" />
+
+  </head>
+
+  
+  <body class="note">
+    <header class="masthead">
+      <h1><a href="/">Echo</a></h1>
+
+<p class="tagline">It&#39;s never too late in this long, wonderful life if you really find what you want to do.</p>
+
+      <nav class="menu">
+  <input id="menu-check" type="checkbox" hidden/>
+  <label id="menu-label" for="menu-check" class="unselectable" hidden>
+    <span class="icon close-icon">✕</span>
+    <span class="icon open-icon">☰</span>
+    <span class="text">Menu</span>
+  </label>
+  <ul>
+  
+  
+  <li><a href="/about/">关于</a></li>
+  
+  <li><a href="/categories/">分类</a></li>
+  
+  <li><a href="/post/">归档</a></li>
+  
+  <li><a href="/index.xml">订阅</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>hugo搭建博客</h1>
+
+<h3>Yihui Xie
+  /  2020-12-14</h3>
+<hr>
+
+
+      </header>
+
+
+
+
+
+<h2 id="发布内容">发布内容</h2>
+<ol>
+<li>
+<p><code>hugo</code> 命令可以将你写的 Markdown 文件生成静态 HTML 网页，生成的 HTML 文件默认存放在 <code>public</code> 文件夹中。</p>
+<pre><code class="language-shell">hugo
+</code></pre>
+</li>
+<li>
+<p>因为<code>hugo</code> 生成的静态 HTML 网页文件默认存放在  <code>public</code> 文件中，所以推送网页内容只需要把  <code>public</code> 中的 HTML 网页文件发布到 GitHub Pages 仓库中。</p>
+</li>
+<li>
+<p>将  <code>public</code> 文件夹初始化为 Git 仓库，并设置默认主分支名为  <code>main</code>。这么做的原因是：</p>
+<ul>
+<li>GitHub 创建仓库时生成的默认主分支名是 <code>main</code></li>
+<li>用 <code>git init</code> 初始化 Git 仓库时创建的默认主分支名是 <code>master</code></li>
+<li>将 <code>git init</code> 创建的 <code>master</code> 修改成 <code>main</code> ，再推送给远端仓库 <code>&lt;username&gt;.github.io</code> ，这样才不会报错。</li>
+</ul>
+<pre><code class="language-shell">cd public
+git init -b main
+</code></pre>
+<p>将 <code>public</code> 文件夹关联远程 GitHub Pages 仓库，使用 GitHub Pages 仓库的 SSH 链接。</p>
+</li>
+<li>
+<p>推送<strong>博客源仓库</strong>的  <code>public</code> 文件夹中的 HTML 网页文件到 <strong>GitHub Pages 仓库</strong> 中，在推送仓库内容前要先用 <code>git pull --rebase origin main</code> 和远端仓库同步，否则会报错。</p>
+<pre><code class="language-shell">git pull --rebase origin main
+git add .
+git commit -m &quot;...(修改的信息)&quot;
+git push origin main
+</code></pre>
+</li>
+</ol>
+
+
+
+  <footer>
+  
+<nav class="post-nav">
+  <span class="nav-prev"></span>
+  <span class="nav-next"></span>
+</nav>
+
+
+
+
+
+<script src="//yihui.org/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.org/js/center-img.js"></script>
+
+  
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/11.7.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/11.7.0/languages/latex.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+  
+  <hr>
+  <div class="copyright">© <a href="https://echoxing.github.io">Echo</a> 2020-2024 | <a href="https://github.com">Github</a></div>
+  
+  </footer>
+  </article>
+  
+  </body>
+</html>
+

@@ -6,24 +6,18 @@
     <description>Recent content in Notes on Echo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Jun 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://Echoxing.github.io/note/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://Echoxing.github.io/note/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Another Note on A blogdown Tutorial</title>
-      <link>https://Echoxing.github.io/note/2017/06/14/another-note/</link>
-      <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
+      <title>hugo搭建博客</title>
+      <link>https://Echoxing.github.io/note/2020/12/14/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://Echoxing.github.io/note/2017/06/14/another-note/</guid>
-      <description>I just discovered an awesome tutorial on blogdown written by Alison. I have to admit this is the best blogdown tutorial I have seen so far.</description>
-    </item>
-    
-    <item>
-      <title>A Quick Note on Two Beautiful Websites</title>
-      <link>https://Echoxing.github.io/note/2017/06/13/a-quick-note/</link>
-      <pubDate>Tue, 13 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://Echoxing.github.io/note/2017/06/13/a-quick-note/</guid>
-      <description>To me, the two most impressive websites based on blogdown are:
-Rob J Hyndman&amp;rsquo;s personal website. Live Free or Dichotomize by Lucy and Nick et al. I&amp;rsquo;m sure there will be more.</description>
+      <guid>https://Echoxing.github.io/note/2020/12/14/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>发布内容 hugo 命令可以将你写的 Markdown 文件生成静态 HTML 网页，生成的 HTML 文件默认存放在 public 文件夹中。
+hugo 因为hugo 生成的静态 HTML 网页文件默认存放在 public 文件中，所以推送网页内容只需要把 public 中的 HTML 网页文件发布到 GitHub Pages 仓库中。
+将 public 文件夹初始化为 Git 仓库，并设置默认主分支名为 main。这么做的原因是：
+GitHub 创建仓库时生成的默认主分支名是 main 用 git init 初始化 Git 仓库时创建的默认主分支名是 master 将 git init 创建的 master 修改成 main ，再推送给远端仓库 &amp;lt;username&amp;gt;.github.io ，这样才不会报错。 cd public git init -b main 将 public 文件夹关联远程 GitHub Pages 仓库，使用 GitHub Pages 仓库的 SSH 链接。
+推送博客源仓库的 public 文件夹中的 HTML 网页文件到 GitHub Pages 仓库 中，在推送仓库内容前要先用 git pull --rebase origin main 和远端仓库同步，否则会报错。</description>
     </item>
     
   </channel>
