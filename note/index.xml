@@ -16,7 +16,7 @@
       <description>发布内容 hugo 命令可以将你写的 Markdown 文件生成静态 HTML 网页，生成的 HTML 文件默认存放在 public 文件夹中。
 hugo 因为hugo 生成的静态 HTML 网页文件默认存放在 public 文件中，所以推送网页内容只需要把 public 中的 HTML 网页文件发布到 GitHub Pages 仓库中。
 将 public 文件夹初始化为 Git 仓库，并设置默认主分支名为 main。这么做的原因是：
-GitHub 创建仓库时生成的默认主分支名是 main 用 git init 初始化 Git 仓库时创建的默认主分支名是 master 将 git init 创建的 master 修改成 main ，再推送给远端仓库 &amp;lt;username&amp;gt;.github.io ，这样才不会报错。 cd public git init -b main 将 public 文件夹关联远程 GitHub Pages 仓库，使用 GitHub Pages 仓库的 SSH 链接。
+GitHub 创建仓库时生成的默认主分支名是 main 用 git init 初始化 Git 仓库时创建的默认主分支名是 master 将 git init 创建的 master 修改成 main ，再推送给远端仓库 &amp;lt;username&amp;gt;.github.io ，这样才不会报错。【如果是第二次以后上传，则不需要再进行这一步了】 cd public git init -b main 将 public 文件夹关联远程 GitHub Pages 仓库，使用 GitHub Pages 仓库的 SSH 链接。
 推送博客源仓库的 public 文件夹中的 HTML 网页文件到 GitHub Pages 仓库 中，在推送仓库内容前要先用 git pull --rebase origin main 和远端仓库同步，否则会报错。</description>
     </item>
     
